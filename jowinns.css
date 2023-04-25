@@ -1,0 +1,34 @@
+* {
+background-color: aqua;
+
+}
+
+
+form {
+border: 5px solid blueviolet;
+padding: 10px 2px;
+margin: 300px;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: bolder;
+background-color: bisque;
+color: black;
+text-transform: capitalize;
+text-align: center;
+
+}
+button {
+    background-color: brown;  
+}
+button:hover {
+    background-color: azure;
+    transition:0s
+}
+
+button:focus{
+    background-color: blue;
+
+}
+button:active {
+    background-color:black;
+}
