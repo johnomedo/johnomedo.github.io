@@ -44,3 +44,17 @@ h4 {
     flex-direction: column;
 
 }
+
+#button {
+
+    position: relative;
+    margin: 50px 500px;
+    position: relative;
+    position: absolute;
+    bottom: 0px;
+}
+
+ .contact {
+    padding: 20px;
+       
+}
