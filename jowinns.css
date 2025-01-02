@@ -12,8 +12,9 @@
 }
 #li1{
     border-bottom: 2px solid black;
-    margin: 0%;
+    margin: 0%;  
 }
+
 .hov1{
     display: block;
     padding: 18px 40px;
@@ -21,6 +22,7 @@
     background-color: beige;
     border-bottom: 2px solid black;
 }
+
 #active1{
     background-color: green;
     color: white;
@@ -31,12 +33,45 @@
 }
 /*  styling for vertical navigation bar- end*/
 
+#horizontal{
+        margin-left: 26%;  
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+        width: 100%;
+        position:sticky;
+        
+            }
+.hori1{
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid black;   
+     }
+     .hori1:last-child{
+        border-right: none;
+     }
+
+.hori2{
+    display: block;
+    padding: 10px 60px;
+    text-decoration:none ;
+    background-color: bisque;
+    text-align: center;
+}
+.hori2:hover{
+    background-color: brown;
+    color: white;
+}
+
 /*  styling for div elements*/
 #txt1{
     margin-left:26%;
-    padding: 1px 16px;
     height: 500px;
     width: 74%;
+}
+#title{
+    padding: 1px 16px;
+    text-align: center;
 }
 
 /* overall styling for selectability*/

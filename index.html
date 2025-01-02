@@ -16,26 +16,45 @@
     <ul id="ul1">
       <li class="li1"><a id="active1" class="hov1" href="consultation.html">CONSULTATION</a></li>
       <li class="li1"><a class="hov1" href="imaging.html">IMAGING</a></li>
-      <li class="li1"><a class="hov1" href="equipment.html">EQUIPMENT</a></li>
-      <li class="li1"><a class="hov1" href="medical-eductation.html">LEARN</a></li>
-    </ul>
+    <!--<li class="li1"><a class="hov1" href="equipment.html">EQUIPMENT</a></li> -->
+      <li class="li1"><a class="hov1" href="medical-eductation.html">EDUCATION</a></li>
+      <li id="con"  class="li1"><a class="hov1" href="tel:+254762519912">CALL US</a></li>
+      <li id="con"  class="li1"><a class="hov1" href="mailto:jowinnsmedical@gmail.com">MAIL US</a></li>
+      </ul>
 
+   
     <div id="txt1">
-      <h1>QUELTH LIMITED</h1>
+      <ul id="horizontal">
+        <li class="hori1"><a onclick="Postal()" id="post" class="hori2" href="">Postal</a></li>
+        <li class="hori1"><a onclick="mail()" id="em" class="hori2" href="">Email</a></li>
+        <li class="hori1"><a onclick="phone()" id="phone" class="hori2" href="">Phone</a></li>
+      </ul>  
+       
+      <script>
+        function Postal(){
+          let post = document.getElementById("post");
+          post = alert("P.O BOX 815 KERICHO TOWN");
+        }
+        function mail(){
+          let post = document.getElementById("em");
+          post = alert("jowinnsmedical@gmail.com");
+        }
+        function phone(){
+          let post = document.getElementById("phone");
+          post = alert("+" + 254762519912);
+        }
+
+      </script>
+      
+      <div id="title">
+        <h1>QUELTH LIMITED</h1>
       <h2>Motto:health as a right</h2>
       <h3>vision:Quality and accesible health care for all</h3>
-      
-    
-             <button class="contact">
-                <a href="tel:+254762519912">PHONE</a>
-            </button>
+      </div>
 
-            <button class="contact">
-                <a href="mailto:jowinnsmedical@gmail.com">EMAIL</a>
-            </button>
-    
 
     </div>
+
     
 </body>
 </html>

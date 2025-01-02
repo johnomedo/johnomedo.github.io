@@ -8,18 +8,40 @@
     <link rel="stylesheet" href="jowinns.css">
 </head>
 <body>
-    <a href="index.html">back to main menu</a>
+   <!--<a href="index.html">back to main menu</a> --> 
     <h1>MEDICAL EQUIPMENT</h1>
     
-    <div id="button">
-        <button class="contact">
-        <a href="tel:0762519912">CALL </a>
-       </button>
-
-       <button class="contact">
-         <a href="mailto:jowinnsmedical@gmail.com">EMAIL</a>
-        </button>
-    </div>
-
+    <div id="txt1">
+        <ul id="horizontal">
+          <li class="hori1"><a onclick="Postal()" id="post" class="hori2" href="">Postal</a></li>
+          <li class="hori1"><a onclick="mail()" id="em" class="hori2" href="">Email</a></li>
+          <li class="hori1"><a onclick="phone()" id="phone" class="hori2" href="">Phone</a></li>
+        </ul>  
+         
+        <script>
+          function Postal(){
+            let post = document.getElementById("post");
+            post = alert("P.O BOX 815 KERICHO TOWN");
+          }
+          function mail(){
+            let post = document.getElementById("em");
+            post = alert("jowinnsmedical@gmail.com");
+          }
+          function phone(){
+            let post = document.getElementById("phone");
+            post = alert("+" + 254762519912);
+          }
+  
+        </script>
+        
+        <div id="title">
+          <h1>QUELTH LIMITED</h1>
+        <h2>Motto:health as a right</h2>
+        <h3>vision:Quality and accesible health care for all</h3>
+        </div>
+  
+  
+      </div>
+  
 </body>
 </html>
