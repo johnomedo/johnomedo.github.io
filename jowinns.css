@@ -1,10 +1,61 @@
-* {
-background-color: aqua;
-font-family: 'Times New Roman', Times, serif;
+/*  styling for vertical navigation bar- index.html */
+#ind1{margin: 0%;}
+#ul1{
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+    position: fixed;
+    overflow: auto;
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+}
+#li1{
+    border-bottom: 2px solid black;
+    margin: 0%;
+}
+.hov1{
+    display: block;
+    padding: 18px 40px;
+    text-decoration: none;
+    background-color: beige;
+    border-bottom: 2px solid black;
+}
+#active1{
+    background-color: green;
+    color: white;
+}
+.hov1:hover{
+    background-color: brown;
+    color: white;
+}
+/*  styling for vertical navigation bar- end*/
 
+/*  styling for div elements*/
+#txt1{
+    margin-left:26%;
+    padding: 1px 16px;
+    height: 500px;
+    width: 74%;
 }
 
+/* overall styling for selectability*/
+*   {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 
+/* overall styling for background-colour*/
+*   {
+background-color: aqua;
+font-family: 'Times New Roman', Times, serif;
+    }
+
+
+/* FORM styling */
 form {
 border: 5px solid blueviolet;
 padding: 10px 2px;
@@ -15,34 +66,23 @@ background-color: bisque;
 color: black;
 text-transform: capitalize;
 text-align: center;
-
 }
+
+/* BUTTON STYLING*/
 button {
     background-color: brown;  
 }
 button:hover {
     background-color: azure;
-    transition:0s
+    transition:0s;
 }
 
 button:focus{
     background-color: blue;
-
 }
+
 button:active {
     background-color:black;
-}
-h1,h2,h3 {
-    text-align: center;
-    padding: 5px 5px;
-    text-transform: capitalize;
-    font-weight: bolder;
-}
-
-h4 {
-    display: flex;
-    flex-direction: column;
-
 }
 
 #button {
@@ -56,14 +96,14 @@ h4 {
 
  .contact {
     padding: 20px;
-       
+        }
+
+
+/* Title styling*/
+h1,h2,h3 {
+    text-align: center;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    font-weight: bolder;
 }
 
-
-      .unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
