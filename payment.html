@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="jowinns.css">
+</head>
+<body>
+    <a href="index.html">back to main menu</a>
+    <ul id="ul1">
+        <li id="pay1" onclick="consult()" class="li1"><a id="active1" class="hov1" href="">CONSULTATION</a></li>
+        <li id="pay2" onclick="image1()" class="li1"><a class="hov1" href="">IMAGING</a></li>
+        <li id="pay3" onclick="educate()" class="li1"><a class="hov1" href="">EDUCATION</a></li>
+
+      <!--<li class="li1"><a class="hov1" href="equipment.html">EQUIPMENT</a></li> -->
+      <!--<li class="li1"><a class="hov1" href="medical-eductation.html">EDUCATION</a></li> -->
+        <li id="con"  class="li1"><a class="hov1" href="tel:+254762519912">CALL US</a></li>
+        <li id="con"  class="li1"><a class="hov1" href="mailto:jowinnsmedical@gmail.com">MAIL US</a></li>
+        </ul>
+
+        <script>
+            function consult(){
+              let post = document.getElementById("pay1");
+              post = alert("Please pay 2000kshs through the paybill indicated below");
+            }
+            function image1(){
+              let post = document.getElementById("pay2");
+              post = alert("obstetric ultrasound imaging- 2500kshs /General pelvic ultrasound- 2000kshs");
+            }
+            function educate(){
+              let post = document.getElementById("pay3");
+              post = alert("Clinical tutorship/Theoretical class sessions will be charged as per starndard market hourly rates");
+            }
+    
+          </script>
+
+    <div id="pay">
+        <img id="payment" src="E:\desktop\computer  studies\images\electronic payment.jpg"
+    alt="mpesa paybill" srcset="">
+    </div>
+
+    
+</body>
+</html>

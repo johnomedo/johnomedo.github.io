@@ -66,12 +66,40 @@
 /*  styling for div elements*/
 #txt1{
     margin-left:26%;
-    height: 500px;
-    width: 74%;
+    background-color: aqua;
+    height: 600px;
+    width: 74%; 
+      
 }
+
+.fetal-us{
+    background-image:url("E:/desktop/computer  studies/images/fetal ultrasound image.jpg");
+    background-size: 50%;
+    background-repeat:repeat; 
+}
+
 #title{
     padding: 1px 16px;
     text-align: center;
+    color:white;
+}
+#pay{
+    align-content: left;
+    margin-left:26%;
+    height: 500px;
+    width: 74%;
+    
+}
+
+#payment{
+    border-radius: 100px;
+    height:auto;
+   max-width: 100%;
+    margin: 2px;
+    padding: 4px;
+    border: 1px black solid;
+    align-content: center;
+    filter: sepia(20%);
 }
 
 /* overall styling for selectability*/
@@ -85,7 +113,6 @@
 
 /* overall styling for background-colour*/
 *   {
-background-color: aqua;
 font-family: 'Times New Roman', Times, serif;
     }
 
