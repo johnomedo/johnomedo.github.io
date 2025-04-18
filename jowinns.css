@@ -175,3 +175,10 @@ h1,h2,h3 {
     background-color:lightgrey ;
     
 }
+.fptypes{
+    font-weight: bold;
+    line-height: 40px;
+}
+#fpcon{
+    word-spacing: 10px;
+}
