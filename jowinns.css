@@ -182,3 +182,34 @@ h1,h2,h3 {
 #fpcon{
     word-spacing: 10px;
 }
+/* styling for payment.html*/
+#pay4{
+    padding: 10px;
+    margin: 10px;
+}
+#pay5{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#donate{
+font-weight: bolder;
+font-style: italic;
+text-transform: capitalize;
+letter-spacing: 1px;
+
+}
+
+#donate1{
+    border: solid black 2px; 
+    margin: 5px; padding: 5px; 
+    max-width: fit-content; 
+    font-weight: 700px;
+}
+
+#donate1:hover {
+    background-color: brown;
+    color: white;
+    }
+
