@@ -114,17 +114,14 @@ grid-column: span 1;
     vertical-align:auto;
     filter: sepia(60%);
 }
-
-
 .payment1{
     border: solid black 2px; 
     margin: 2px; padding: 2px;
     height: auto; 
     width: auto; 
-    font-weight: 700px;
     font-weight: bolder;
     font-style: italic;
-    text-transform:uppercase;
+    text-transform:capitalize;
     text-align: left;
     letter-spacing: 1px;}
 
