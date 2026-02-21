@@ -98,11 +98,20 @@ grid-column: span 1;
     width: auto;
     background-size:contain;}
 
-#pay,#talking_points{
+#pay{
     grid-column: 2/ span 4;
     align-content:left;
     height:70%;
     width: 100%;}
+
+   #talking_points{
+    grid-column: 2/ span 4;
+    align-content:left;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    height:70%;
+    width: 100%;} 
 
 #payment{
     border-radius: 50px;
@@ -115,6 +124,8 @@ grid-column: span 1;
     filter: sepia(60%);
 }
 .payment1{
+    display: flex;
+    flex-wrap: wrap;
     border: solid black 2px; 
     margin: 2px; padding: 2px;
     height: auto; 
