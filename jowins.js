@@ -2,11 +2,11 @@
 /*for payment.html*/
 function consult(){
     let post = document.getElementById("pay1");
-    post = alert("Please pay 2000kshs through the paybill indicated;Then call/mail using the links below");
+    post = alert("Online consultation @ 2000kshs,Home visits @ 3000kshs only, Clinic bookings @1500kshs");
   }
   function image1(){
     let post = document.getElementById("pay2");
-    post = alert("obstetric ultrasound imaging- 2500kshs /General pelvic ultrasound- 2000kshs");
+    post = alert("obstetric ultrasound imaging- 1500kshs /General pelvic ultrasound- 2000kshs");
   }
   function educate(){
     let post = document.getElementById("pay3");
@@ -14,10 +14,11 @@ function consult(){
   }
 
   /* for index.html*/
-   function Postal(){
+
+        /*function Postal(){
           let post = document.getElementById("post");
           post = alert("P.O BOX 815 KERICHO TOWN");
-        }
+        }*/
         function mail(){
           let post = document.getElementById("em");
           post = alert("jowinnsmedical@gmail.com");
