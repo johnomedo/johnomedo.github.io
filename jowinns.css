@@ -59,7 +59,7 @@ grid-column: span 1;
     padding: 0;
     overflow:visible;
     list-style-type: none;
-    width: 100%;
+    width: auto;
     height: 30%; 
     position:sticky;
     margin-left: 30%;
