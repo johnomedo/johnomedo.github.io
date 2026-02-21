@@ -118,8 +118,8 @@ grid-column: span 1;
 
 .payment1{
     border: solid black 2px; 
-    margin: 5px; padding: 5px; 
-    max-width: fit-content; 
+    margin: 2px; padding: 2px; 
+    width: auto; 
     font-weight: 700px;
     font-weight: bolder;
     font-style: italic;
