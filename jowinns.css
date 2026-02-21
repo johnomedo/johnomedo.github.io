@@ -101,6 +101,7 @@ grid-column: span 1;
 #pay{
     grid-column: 2/ span 4;
     align-content:left;
+    
     height:70%;
     width: 100%;}
 
@@ -115,12 +116,14 @@ grid-column: span 1;
 
 #payment{
     border-radius: 50px;
+    border: 2px solid black ;
     height:50%;
     width: 60%;
     margin: 1px;
     padding: 1px;
     border: 1px black solid;
     vertical-align:auto;
+    text-align: left;
     filter: sepia(60%);
 }
 .payment1{
